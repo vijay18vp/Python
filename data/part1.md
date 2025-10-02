@@ -155,3 +155,16 @@ Out[17]: array([[ 0.99844933,  0.52183819,  0.22421193],
                 [ 0.14360941,  0.96910973,  0.946117  ]])
 
 
+# arrays attributes 
+creating random arrays 
+import numpy as np
+       np.random.seed(0)  # seed for reproducibility
+       x1 = np.random.randint(10, size=6)  # One-dimensional array
+       x2 = np.random.randint(10, size=(3, 4))  # Two-dimensional array
+       x3 = np.random.randint(10, size=(3, 4, 5))  # Three-dime
+
+print("x3 ndim: ", x3.ndim)
+       print("x3 shape:", x3.shape)
+       print("x3 size: ", x3.size)    
+
+       like that we have dtype , itemsize and nbytes    
